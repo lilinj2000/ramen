@@ -1,0 +1,10 @@
+max_times=1
+./netperf -t TCP_RR -H 192.168.230.42 -L 192.168.230.22 -p 51234 -l 10 -- -r 1024
+MIGRATED TCP REQUEST/RESPONSE TEST from 192.168.230.22 () port 0 AF_INET to 192.168.230.42 () port 0 AF_INET : first burst 0
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+16384  87380  1024     1024    10.00    31887.22   
+16384  87380 

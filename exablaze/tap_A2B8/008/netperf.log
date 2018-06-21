@@ -1,0 +1,10 @@
+max_times=1
+./netperf -t UDP_RR -H 192.168.230.12 -L 192.168.230.22 -p 51234 -l 10 -- -r 512
+MIGRATED UDP REQUEST/RESPONSE TEST from 192.168.230.22 () port 0 AF_INET to 192.168.230.12 () port 0 AF_INET : first burst 0
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+212992 212992 512      512     10.00    37304.39   
+212992 212992
