@@ -8,7 +8,7 @@ pack = {
     "size": 512
     }
 
-prefix_file = 'ens1d1_20180621_022'
+prefix_file = 'ens1d1_20180621_023'
 config = {"pcap_file": ''.join([prefix_file,'.pcap']), 
           "pack": pack, 
           "output_file": ''.join([prefix_file, '.output'])}
